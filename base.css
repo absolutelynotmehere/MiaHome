@@ -6,6 +6,34 @@ body, html {
   color: white;
 }
 
+.pic {
+    height: 200px;
+    margin: 50px 400px 0px;
+    position: raletive;
+}
+
+.pic2 {
+    height: 200px;
+    margin: 0px 500px 0px;
+    position: raletive;
+}
+
+a {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
