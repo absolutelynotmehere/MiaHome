@@ -6,19 +6,23 @@ body, html {
   color: white;
 }
 
-.pic {
+.col1 {
     height: 200px;
     margin: 50px 400px 0px;
     position: raletive;
 }
 
-.pic2 {
+.col2 {
     height: 200px;
     margin: 0px 500px 0px;
     position: raletive;
 }
 
-a {
+.content {
+  margin: -100px 200px 0px;
+  position: raletive;
+}
+.icon {
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -40,7 +44,7 @@ a {
  * Icon
  */
 
-.icon {
+.shine {
   position: relative;
   overflow: hidden;
   width: 200px;
@@ -63,7 +67,7 @@ a {
 
 /* Hover state - trigger effect */
 
-.icon:after {
+.shine:after {
 
   animation: shine 7s ease-in-out  infinite;
   animation-fill-mode: forwards;
@@ -93,7 +97,7 @@ a {
 
 /* Active state */
 
-.icon:active:after {
+.shine:active:after {
   opacity: 0;
 }
 
@@ -103,7 +107,7 @@ a {
     top: -30%;
     left: -30%;
     transition-property: left, top, opacity;
-    transition-duration: 0.1s, 0.1s, 0.15s;
+    transition-duration: 0.7s, 0.1s, 0.15s;
     transition-timing-function: ease;
   }
   100% {
