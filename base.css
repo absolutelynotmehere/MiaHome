@@ -8,6 +8,7 @@ body, html {
 .col1 {
     height: 190px;
     margin: 0 auto;
+    
     position: absolute;
 	  left: 50%;
 	  top: 25%;
