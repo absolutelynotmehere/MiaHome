@@ -1,6 +1,4 @@
 body, html {
-  height: 100%;
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #374E5E;
   color: white;
@@ -8,10 +6,10 @@ body, html {
 }
 
 .col1 {
-    height: 200px;
+    height: 190px;
     margin: 50px 400px 0px;
     position: raletive;
-    
+
 }
 
 .col2 {
@@ -22,13 +20,7 @@ body, html {
 
 .content {
   margin: -100px 200px;
-  position: raletive;
 }
-.icon {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 
 
 
